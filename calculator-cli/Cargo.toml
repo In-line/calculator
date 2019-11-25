@@ -1,0 +1,10 @@
+[package]
+name = "calculator-cli"
+version = "0.1.0"
+authors = ["Alik Aslanyan <cplusplus@gmail.com>"]
+edition = "2018"
+license = "GPL-3.0"
+
+[dependencies]
+calculator-engine = { path = "../calculator-engine" }
+ansi_term = "0.12.1"

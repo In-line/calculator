@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+	"calculator-engine",
+	"calculator-repl",
+	"calculator-cli",
+	"calculator-gtk"
+]
+
+[profile.release]
+codegen-units = 1
+lto = "thin"

@@ -1,0 +1,13 @@
+[package]
+name = "calculator-repl"
+version = "0.1.0"
+authors = ["Alik Aslanyan <cplusplus@gmail.com>"]
+edition = "2018"
+license = "GPL-3.0"
+
+[dependencies]
+calculator-engine = {path = "../calculator-engine"}
+linefeed = "0.6.0"
+ansi_term = "0.12.1"
+derive_more = "0.99.2"
+pretty_env_logger = "0.3.1"
